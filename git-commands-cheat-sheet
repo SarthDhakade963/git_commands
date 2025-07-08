@@ -27,6 +27,6 @@ git rm <file> - Remove a file from working dir + stage
 
 git mv old new - Rename file in Git
 
-git rm --cache <file> - To unstaged the staged file
+git rm --cache <file> - To unstaged the staged file and stop tracking file
 
-
+git restore --staged <file> - Unstages the file (moves it from staging area back to working directory), do not affect tracking, keeps the file exactly as it is
