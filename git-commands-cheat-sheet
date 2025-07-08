@@ -68,7 +68,11 @@ git branch -d <name> - Delete a local branch
 
 git rebase <branch> - Reapply commits from the head to the tip of branch
 
+git fetch - Updated your view of remote branches (but didn't create local ones)
 
+git branch -r - List all remote branches(remote branches - the one which are on your github repository)
+
+git checkout -b staging origin/staging - Creates a local staging tracking remote one
 
 ## Undo/Reset/Restore
 
