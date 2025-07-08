@@ -89,12 +89,14 @@ git checkout <commit> - Temporarily explore an older commit
 git reflog - See all your Git Actions
 
 
+
 ## .gitignore & Other files
+
 .gitignore - List of file git should ignore
 
 README.md - Project Description
 
 LICENSE - Licensing info
 
-.getattributes - Git Behaviour Customization (e.g. line endings)
+.getattributes - Git Behaviour Customization (e.g. line ending)
 
