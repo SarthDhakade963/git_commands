@@ -88,7 +88,13 @@ git checkout <commit> - Temporarily explore an older commit
 
 git reflog - See all your Git Actions
 
-=======
-This is from main <- dev <- feature-branch branch
 
->>>>>>> dev
+## .gitignore & Other files
+.gitignore - List of file git should ignore
+
+README.md - Project Description
+
+LICENSE - Licensing info
+
+.getattributes - Git Behaviour Customization (e.g. line endings)
+
