@@ -74,6 +74,8 @@ git branch -r - List all remote branches(remote branches - the one which are on 
 
 git checkout -b staging origin/staging - Creates a local staging tracking remote one
 
+
+
 ## Undo/Reset/Restore
 
 git restore <file> - Discard changes in working dir
