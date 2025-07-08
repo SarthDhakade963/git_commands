@@ -1,6 +1,7 @@
 #!/bin/bash
 
 ## Repository Management
+
 git init - Create a new Git Repo in current folder
 
 git clone <url> - Copy(clone) a remote repo locally
@@ -13,6 +14,7 @@ git remote remove origin - Remove linked remote
 
 
 ## Staging and Committing
+
 git status - Check which files are staged unstaged
 
 git add <file> - Stage a specific file
@@ -30,3 +32,18 @@ git mv old new - Rename file in Git
 git rm --cache <file> - To unstaged the staged file and stop tracking file
 
 git restore --staged <file> - Unstages the file (moves it from staging area back to working directory), do not affect tracking, keeps the file exactly as it is
+
+
+## View Changes and Logs
+
+git log - Show commit history
+
+git log --oneline - Compact log view
+
+git diff - Show unstaged changes
+
+git diff --staged - Show staged changes
+
+git show <commit> - Show full details of a commit
+
+git blame <file> - See who last modified each line
