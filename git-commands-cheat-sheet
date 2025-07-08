@@ -1,0 +1,32 @@
+#!/bin/bash
+
+## Repository Management
+git init - Create a new Git Repo in current folder
+
+git clone <url> - Copy(clone) a remote repo locally
+
+git remote -v - Show Linked Remotes
+
+git remote add origin <url> - Add remote repo link
+
+git remote remove origin - Remove linked remote
+
+
+## Staging and Committing
+git status - Check which files are staged unstaged
+
+git add <file> - Stage a specific file
+
+git add . - Stage all modified files
+
+git commit -m "msg" - Commit staged changes with message
+
+git commit -am "msg" - Add + commit tracked files in one step
+
+git rm <file> - Remove a file from working dir + stage
+
+git mv old new - Rename file in Git
+
+git rm --cache <file> - To unstaged the staged file
+
+
