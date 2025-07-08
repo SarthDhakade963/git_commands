@@ -106,3 +106,18 @@ LICENSE - Licensing info
 
 .getattributes - Git Behaviour Customization (e.g. line ending)
 
+
+
+## Push/Pull from Remote
+
+git push - Push current branch to remote
+
+git push -u origin main - Set upstream branch (it is remote branch that your local branch is tracking) and push
+
+git pull - Fetch + merge from remote
+
+git push origin --delete <branch> - Delete branch from remote
+
+git tag <v1.0> - Add a tag to commit
+
+git push origin --tags - Push tags to remote
