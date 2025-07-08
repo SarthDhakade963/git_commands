@@ -47,3 +47,20 @@ git diff --staged - Show staged changes
 git show <commit> - Show full details of a commit
 
 git blame <file> - See who last modified each line
+
+## Branching
+
+git branch - List all local branches
+
+git branch <name> - Create a new branch
+
+git checkout <branch> - Switch to a branch
+
+git checkout -b <name> - Create and switch to new branch
+
+git merge <branch> - Merge a branch into current branch
+
+git branch -d <name> - Delete a local branch
+
+git rebase <branch> - Reapply commits on top of another branch
+
