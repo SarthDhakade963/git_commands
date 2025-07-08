@@ -68,6 +68,7 @@ git branch -d <name> - Delete a local branch
 
 git rebase <branch> - Reapply commits from the head to the tip of branch
 
+<<<<<<< HEAD
 
 
 ## Undo/Reset/Restore
@@ -87,6 +88,3 @@ git revert <commit> - Undo a commit by creating a new one
 git checkout <commit> - Temporarily explore an older commit
 
 git reflog - See all your Git Actions
-
-This is from main branch
-
